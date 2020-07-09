@@ -22,3 +22,13 @@ e
                 encoded[f.split(".")[0]] = encoding
 
     return encoded
+
+    def unknown_image_encoded(img):
+    """
+    encode a face given the file name
+    """
+    
+    face = fr.load_image_file("faces/" + img)
+    encoding = fr.face_encodings(face)[0]
+
+    return encoding
