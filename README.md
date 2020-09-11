@@ -9,6 +9,7 @@ Identifies name of the person From provided Data Set of pictures.
 
 It is a very basic project and makes use of the following libraries:
 
+       
         cmake
         dlib
         face_recognition
@@ -18,13 +19,13 @@ It is a very basic project and makes use of the following libraries:
 These libraries are required in order for this to work.
 
 
-The image has to be present in dataset in order to make sure that it can identify the person in the Image.
+The Image has to be present in dataset in order to make sure that it can identify the person in the Image.
 
 
 This can work for any particular objects but i have used to identify Faces of people.
 
 
-I have used Doanald trump's face beacuse why not :)
+I have used Doanald  trump's face beacuse why not :)
 
 
-Thank you !
+Thank you for having a look !
